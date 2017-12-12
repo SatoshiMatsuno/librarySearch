@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+h1 {
+	font-size: 20px;
+}
+
+hr {
+  border-top: 3px double #bbb;
+}
+
+.LoginInfo form {
+	text-align: center;
+}
+
+/*TO DO：エラーメッセージのフォントカラーを赤色にする。*/
+.error p {
+	color: red;
+	text-align: center;
+}
+
+.userName {
+	text-align: right;
+}
+
+.Button {
+	display:inline;
+}
+
+.logoutButton {
+	text-align: right;
+}
+
+.EntryInfo {
+	position: relative;
+	left: 100px;
+}
+
+.entryButton {
+	position: relative;
+	left: 500px;
+}
+
+.backButton {
+	position: relative;
+	left: 500px;
+}
